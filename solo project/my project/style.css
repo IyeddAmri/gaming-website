@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+   background-color:silver;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    background-image: url("https://images.unsplash.com/photo-1482855549413-2a6c9b1955a7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+
+}
+.navbar{
+    height: 12%;
+    display:flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(212, 52, 52);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+}
+.col{
+    flex-basis: 50%;
+
+}
+h1{
+    color: white;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button-33 {
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-size: 35px;
+  }
+  
+  .button-33:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
+.car{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    color: white;
+    font-weight: 900;
+}
+.car1{
+    background-image: url("https://i.ytimg.com/vi/lsXMumRLo6I/maxresdefault.jpg");
+}
+.car2{
+    background-image: url("https://i.ytimg.com/vi/x5jVehdT4f8/maxresdefault.jpg");
+}
+.car3{
+    background-image: url("https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2020/6/18/jnhtjx1nozaocxki9ekx/ios-racers-lead-asphalt-9");
+}
+.car4{
+    background-image: url("https://www.gamepro.com.au/wp-content/uploads/2022/07/sports-video-gaming-genre@2x.jpg");
+}
+.car5{
+    background-image: url(https://static.toiimg.com/thumb/resizemode-4,width-1200,height-900,msid-74472841/74472841.jpg);
+}
+.car6{
+    background-image: url(https://i.ytimg.com/vi/DGNtJVnxK_I/maxresdefault.jpg);
+}
+.car7{
+    background-image: url(https://www.gamespot.com/a/uploads/original/1552/15524586/3774263-613605-assassins-creed-valhalla-patch.jpg);
+}
+.car8{
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTMfsUsStlP5PS8VamFESlCYqBIGemePJ4rbQSBasrnZvGkzoby);
+}
+.car9{
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTMfsUsStlP5PS8VamFESlCYqBIGemePJ4rbQSBasrnZvGkzoby);
+}
+.car10{
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcStz6j3Zi8U2LMg178MB9VxjIAEV9lJuPyggfleoGw-oQXwMxNW);
+}
+.car:hover{
+    transform: translateY(-10px);
+}
+p{
+    color: aliceblue;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
